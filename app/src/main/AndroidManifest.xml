@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".RowCntListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HnDictActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BnDictActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrochetLenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GaugeCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StAdjustActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoteListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MakeNoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
